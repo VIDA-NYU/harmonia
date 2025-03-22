@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
 dependencies = [
-  "beaker_kernel~=1.6.2",
+  "beaker_kernel~=1.9.2",
   "bdi-kit @ git+https://github.com/VIDA-NYU/bdi-kit.git@41f6c26e66064dd2aa6b436c023c98e4a96d1b5e"
 ]
 
@@ -60,7 +60,7 @@ cov = [
 ]
 
 [[tool.hatch.envs.all.matrix]]
-python = ["3.8", "3.9", "3.10", "3.11", "3.12"]
+python = ["3.10", "3.11", "3.12"]
 
 [tool.hatch.envs.types]
 dependencies = [

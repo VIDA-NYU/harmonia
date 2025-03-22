@@ -1,3 +1,5 @@
 *.pyc
 /.env
+.beaker.conf
+.ipynb_checkpoints/
 /dou_harmonized.csv
