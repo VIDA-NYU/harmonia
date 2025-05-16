@@ -7,6 +7,9 @@ RUN apt update && apt install -y lsof
 # Install Python requirements
 RUN pip install --upgrade --no-cache-dir hatch pip
 
+# Cache pytorch to avoid long image build times
+RUN pip install torch==2.5.1
+
 COPY --chown=1000:1000 . /jupyter/
 RUN chown -R 1000:1000 /jupyter
 RUN pip install -e /jupyter

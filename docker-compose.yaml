@@ -19,4 +19,5 @@ services:
     volumes:
       - .:/jupyter
       - ./.beaker.conf:/jupyter/.beaker.conf
+      # - ~/.cache/bdikit/:/home/jupyter/.cache/bdikit
     command: ["beaker", "dev", "watch", "--ip", "0.0.0.0"]
