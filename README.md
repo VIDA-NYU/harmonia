@@ -1,6 +1,6 @@
 # Harmonia: An Interactive Data Harmonization Agent
 
-Harmonia is a LLM-based agent that leverages the [bdi-kit](https://bdi-kit.readthedocs.io/en/latest/index.html) library to perform data harmonization with the user in the loop.
+Harmonia is a LLM-based agent that leverages the [BDI-Kit](https://bdi-kit.readthedocs.io/stable/) library to perform data harmonization with the user in the loop.
 
 ## Demo Video - Data Harmonization Agent
 
